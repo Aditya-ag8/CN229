@@ -1,0 +1,87 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #512da8;
+}
+
+li a {
+    color: rgb(169, 144, 0);
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(152, 89, 223);
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.nav__links {
+    list-style: none;
+    background-color: rgb(30, 43, 103);
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links a:hover {
+    color: darkblue;
+}
+button {
+    color: rgb(83, 30, 105);
+    padding: 9px 25px;
+    background-color: rgba(173, 150, 225, 0.321);
+    border: none;
+    cursor: pointer;
+  
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+  
+.text-box{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+  
+  
+.itemImg:hover {
+    opacity: 0.3;
+}
+  
+ 
